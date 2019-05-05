@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>{randomQuote()}</p>
+        <p>"{randomQuote()}"</p>
       </header>
     </div>
   );
