@@ -7,6 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>"{randomQuote()}"</p>
+          <button onClick={() => window.location.reload()}>
+              New quote!
+          </button>
       </header>
     </div>
   );
